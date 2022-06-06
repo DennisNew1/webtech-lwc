@@ -13,5 +13,5 @@ npm install
 npm run watch
 ```
 
-Nun sollte der Srever erreichbar sein unter `http://localsthost:3001`
+Nun sollte der Server erreichbar sein unter `http://localsthost:3001`
 
