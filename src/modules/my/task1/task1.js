@@ -14,7 +14,7 @@ export default class task1 extends LightningElement {
     }
 
     onChangeSum(e) {
-        this.solution = e.target.value;
+        this.solution = Number(e.target.value);
     }
 
     onClickBack() {
