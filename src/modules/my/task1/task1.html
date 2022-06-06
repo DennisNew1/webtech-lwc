@@ -1,0 +1,16 @@
+<template>
+    <h1>Aufgabe 1</h1>
+    <div class="task-text">1. Lasse die Summanten (sum1, sum2) an der richtigen Stelle anzeigen. </div>
+    <div class="task-text">2. Wenn der Input mit dem richtigen Ergebnis ausgefüllt wird, zeige den "Zurück"-Button an.</div>
+
+    <div class="calc-container">
+        <div class="sum"></div>
+        <div class="sum">+</div>
+        <div class="sum"></div>
+        <div class="sum">=</div>
+        <input type="text" onchange={onChangeSum}>
+    </div>
+
+    <button class="btn" onclick={onClickBack}>Zurück</button>
+    
+</template>

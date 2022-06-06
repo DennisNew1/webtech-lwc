@@ -1,0 +1,10 @@
+<template>
+<div class="container">
+    <div class="title">{beer.name}</div>
+    <template for:each={beer.varieties} for:item="variety" >
+        <div class="items" key={variety}>- {variety}</div>
+    </template>
+    
+</div>
+
+</template>

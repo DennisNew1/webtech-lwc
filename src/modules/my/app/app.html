@@ -1,0 +1,17 @@
+<template>
+    <div if:true={showMain}>
+        <h1>Lightning Web Components</h1>
+        <div class="task-panel">
+            <button class="btn" onclick={onClickTask} data-id="0">Aufgabe 1</button>
+            <button class="btn" onclick={onClickTask} data-id="1">Aufgabe 2</button>
+            <button class="btn" onclick={onClickTask} data-id="2">Aufgabe 3</button>
+        </div>
+    </div>
+
+    <my-task1 if:true={showTask1} onback={onBack}></my-task1>
+
+    <my-task2 if:true={showTask2} onback={onBack}></my-task2>
+
+    <my-task3 if:true={showTask3} onback={onBack}></my-task3>
+
+</template>
