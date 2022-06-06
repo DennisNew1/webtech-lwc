@@ -2,7 +2,7 @@
 
 ## Vorrausetzungen
 - IDE z.B. VS Code
-- Node.js > 10
+- Node.js (Am Besten aktuelle LTS-Version => 16.15.1)
 
 ## Installatation & Entwicklung
 
